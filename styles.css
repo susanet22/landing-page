@@ -41,7 +41,7 @@ header {
     font-size: 48px;
     font-weight:900;
 }
-img {
+img-header {
     max-height: 350px;
 }
 .hero-button {
@@ -51,4 +51,32 @@ img {
     padding: 5px 20px;
     border-radius: 5px;
     border: 0
+}
+
+h1 {
+    font-size: 36px;
+    color:#1F2937;
+    font-weight:900;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.illustrations {
+    display: flex;
+    justify-content: center;
+    gap: 30px
+}
+
+.image-group {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    text-align: center;
+}
+
+.img-content {
+    height:150px;
+    width: 150px;
+    border: 2px solid blue;
+    border-radius: 10px;
 }
