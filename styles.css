@@ -29,6 +29,7 @@ header {
 .links, .hero-text {
     font-size: 18px;
     color: #e5e7eb;
+    margin: 10px 0px;
 }
 
 .hero {
@@ -42,7 +43,8 @@ header {
     font-weight:900;
 }
 .img-header {
-    width: 100%
+    width: 100%;
+    max-height: 300px;
 }
 button {
     background-color:#3882F6;
@@ -91,7 +93,7 @@ h1 {
 .quote-text {
     font-size: 36px;
     font-style: italic;
-    font-weight:400;
+    font-weight:300;
     color:#1F2937;
 }
 
